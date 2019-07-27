@@ -1,0 +1,439 @@
+ .title-nav{
+    font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.17px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 10px;
+   }
+  .span-nav{
+    color: #fcf399;
+  }
+  .logo{
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .menu{
+    font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #9b9b9b;
+  }
+  .navmenu{
+    background: #fff !important;
+    height: 0px !important;
+    margin-top: 15px !important;
+  }
+ #input-home {
+  background: #fff !important;
+ }
+ <style>
+  .content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.slick-slide .slick-slide-content {
+  text-align: center; 
+  padding: 10px 0;
+}
+
+.slick-slide .slick-slide-content img {
+  display: inline-block;
+}
+
+.slick-slide .slick-slide-content p {
+  margin: 0;
+}
+
+.slick-prev {
+  left: 0;
+}
+.slick-next {
+  right: 0;
+}
+
+/* Button Play/Pause */
+.carousel-wrapper {
+  position: relative;
+}
+
+.slick-control {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.slick-control button {
+  width: 25px;
+  height: 23px;
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+.slick-control.slick-control--play .slick-control__button--pause {
+  display: none;
+}
+.slick-control.slick-control--pause .slick-control__button--play {
+  display: none;
+}
+
+/* Pagination */
+.custom-dots {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0 35px 0 0;
+}
+.custom-dots .slick-active .dot {
+  background-color: #E0001A;
+}
+
+.custom-dots .dot {
+  width: 25px;
+  height: 15px;
+  display: inline-block;
+  border: 1px solid #E0001A;
+  margin-left: 5px;
+}
+
+.custom-dots .dot:hover {
+  cursor: pointer;
+  background-color: #E0001A;
+}
+
+.custom-dots .dot span {
+  display: none;
+}
+
+.slick-next::before,
+.slick-prev::before {
+  color: #E0001A;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+nav ul a:hover {
+    color:#00927f;
+    background: transparent;
+  }
+  #input-home {
+  background: #fff !important;
+      padding: 7px;
+
+
+ }
+ .title-banner-home{
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 100px;
+
+ }
+ .iconos-banner{
+   margin-left: 78%;
+    margin-top: 5px;
+ }
+ select {
+          color:#c3c3c3ed !important;
+        }
+        .modal {
+          max-height: 100%;
+              width: 60%;
+              top: 0% !important;
+        }
+        .resumen{
+          font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+     line-height: 40px;
+  letter-spacing: 0.23px;
+  text-align: center;
+  color: #fcf399;
+        }
+
+        .inputWithIcon input[type="text"] {
+  padding-left: 40px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus + i {
+  color: #fff;
+  background-color: dodgerBlue;
+}
+.text-input-contact{
+ text-align: right;
+ margin-top:10px;
+ font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.54;
+  letter-spacing: 0.2px;
+  text-align: right;
+  color: #9b9b9b;
+}
+
+    .title-logos{
+    object-fit: contain;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #7b7b7b;
+  margin-top:29px;  
+  height: 50px;
+    }
+  .fondo-logos{
+    background: #fff;
+        border-bottom: 15px solid #f9e633;
+        border-radius: 8px;
+            margin-top: 23px;
+            width: 100%;
+            margin-right: 10px;
+            
+
+            
+
+  }
+  .ver-mas{
+    font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #66beb2;
+  }
+  .vl {
+  border-left: 3px solid #f4f4f4;
+  height: 120px;
+  margin-top: 38px;
+}
+.rutas{
+  object-fit: contain;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00927f;
+}
+
+  .mision{
+    object-fit: contain;
+ font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #33a899;
+
+    margin-left: 30px;
+
+  }
+
+  .descrip-mision{
+    font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: -0.15px;
+  text-align: left;
+  color: #7b7b7b;
+  color: #33a899;
+    margin-left: 30px;
+
+  }
+   .banner-about{
+          width: 100%;
+          height: 150px;
+          max-height: 150px;
+          background-repeat:no-repeat;
+          -o-background-size: 100% 100%, auto;
+-moz-background-size: 100% 100%, auto;
+-webkit-background-size: 100% 100%, auto;
+background-size: 100% 100%, auto;
+            background-image: url({{asset('image/bannerabout.png')}});
+            
+        }
+ .title-about1 {
+    object-fit: contain !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 45px !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+ 
+  letter-spacing: -0.5px !important;
+  text-align: left !important;
+  color: #ffffff !important;
+
+   margin-left: 30px !important;
+  }
+  .subtitle-about{
+ font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 30px;
+      margin-top: -18px;
+
+  }
+  .privado{
+    font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.32;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #33a899;
+  margin-left: 10%;
+  margin-top: 14%;
+  }
+  .descrip-privado{
+    object-fit: contain;
+ font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: -0.15px;
+  text-align: left;
+  color: #7b7b7b;
+  margin-left: 10%;
+  }
+  .btn-services{
+    background-color: #00927f;
+    font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+ 
+  letter-spacing: 0.23px;
+  text-align: center;
+  color: #fcf399;
+      float: right;
+    width: 80%;
+  }
+  .btn-services:hover{
+    background-color: #00927f;
+    color: #fcf399;
+  }
+  .cart-service-grande{
+    width: 100%;
+    margin-left: 3%;
+  }
+  .title-contact{
+    font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #33a899;
+
+  }
+  .text-area{
+  width: 123% !important;
+  }
+
+/*  medias querys*/
+
+  @media only screen and (max-width: 600px){
+  .btn-services {
+    width: 100%;
+  }
+}
+  @media only screen and (max-width: 600px){
+  .cart-service {
+    display: none;
+  }
+}
+  @media only screen and (max-width: 600px){
+  .btn-services {
+    width: 100%;
+  }
+}
+
+ @media only screen and (max-width: 1000px){
+  .cart-service-grande {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .privado {
+    margin-top: 0%;
+  }
+}
+</style>
