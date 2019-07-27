@@ -160,6 +160,7 @@ nav ul a:hover {
           max-height: 100%;
               width: 60%;
               top: 0% !important;
+              border-radius: 8px;
         }
         .resumen{
           font-family: 'Roboto', sans-serif;

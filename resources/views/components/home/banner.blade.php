@@ -222,9 +222,16 @@ background-size: 100% 100%, auto;
               </div>
 
           </div>
-          <div class="contanier" style="width: 90%;">
+          <div class="row">
             
-             <h6 style="text-align: center;color: #B1B1B1;font-size: 11pt;">Enviaremos via email una cotización formal con las diferentes opciones que se ajusten a su busqueda. Al enviar el formulario acepta nuestras <a href="#">politicas de privacidad</a>. Muchas gracias por elegir nuestros servicios </h6>
+             <h6 style="text-align: center;color: #B1B1B1;font-size: 11pt; ">Enviaremos via email una cotización formal con las diferentes opciones que se ajusten a su busqueda. Al enviar el formulario acepta nuestras <a href="#">politicas de privacidad</a>. Muchas gracias por elegir nuestros servicios </h6>
+             <br>
+             <div class="col s1 m4 l4"></div>
+             <div class="col s1 m4 l4">
+               <a class="btn" href="#modal1" style="background-color: #faec66;color:#00927f; margin-right: auto;margin-left: auto; width: 100%">Solicitar opciones</a>
+             </div>
+             <div class="col s1 m4 l4"></div>
+             
           </div>
           
 
@@ -266,4 +273,11 @@ background-size: 100% 100%, auto;
                 months: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
                 monthsShort: ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Set", "Oct", "Nov", "Dic"],
                 weekdays: ["Domingo","Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
-       
+                weekdaysShort: ["Dom","Lun", "Mar", "Mie", "Jue", "Vie", "Sab"],
+                weekdaysAbbrev: ["D","L", "M", "M", "J", "V", "S"]
+            }
+        });
+</script>
+
+
+</body>
